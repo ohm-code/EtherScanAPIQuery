@@ -2,7 +2,10 @@
 
 Mainnet URL https://api.etherscan.io/
 
-API key: S4FI5B7J72PHRP85RGISJGZW1ANBRU72PI
+Exports transactionInfo as address,balance, last 10 transactions as JSON
+
+Update ethAddress line2 to change ethereum address 
+const ethAddress = '' 
 
 
 Return ether Balance;

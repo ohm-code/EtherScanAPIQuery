@@ -1,8 +1,11 @@
 # EtherScanAPIQuery
+#ohm-code
+#12/17
 
 Mainnet URL https://api.etherscan.io/
 
-Exports transactionInfo as address,balance, last 10 transactions as JSON
+Exports transactionInfo // contains eth address,balance,last 10 transactions' hash, value and confirmations as JSON
+
 
 Update ethAddress line2 to change ethereum address 
 const ethAddress = '' 

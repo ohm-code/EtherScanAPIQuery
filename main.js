@@ -1,7 +1,7 @@
 
 const ethAddress = window.prompt("enter ethereum address or default to test",'0x829BD824B016326A401d083B33D092293333A830') 
 const apiKey = 'S4FI5B7J72PHRP85RGISJGZW1ANBRU72PI'
-const transactionOutput = {'ethAddress': `${ethAddress}`}
+const transactionOutput = {'Ethereum Address': `${ethAddress}`}
 let exportData 
 
 const weiToEthConversion = (number)=>{
@@ -22,7 +22,7 @@ const getCurrentBalance = fetch(
 
 const ethBalance = getCurrentBalance.then((value)=>{  // test code
         const wei = value.result
-        transactionOutput['currentBalance:'] = weiToEthConversion(wei);
+        transactionOutput['Current Ether Balance:'] = weiToEthConversion(wei);
         return wei  
    })
 

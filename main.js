@@ -1,7 +1,7 @@
 
-const ethAddress = '0x829BD824B016326A401d083B33D092293333A830' 
+const ethAddress = window.prompt("enter ethereum address or default to test",'0x829BD824B016326A401d083B33D092293333A830') 
 const apiKey = 'S4FI5B7J72PHRP85RGISJGZW1ANBRU72PI'
-const transactionOutput = {'ethAddress:': '0x829BD824B016326A401d083B33D092293333A830'}
+const transactionOutput = {'ethAddress': `${ethAddress}`}
 let exportData 
 
 const weiToEthConversion = (number)=>{

@@ -32,3 +32,8 @@ https://api.etherscan.io/api
    &offset=10
    &sort=asc
    &apikey=S4FI5B7J72PHRP85RGISJGZW1ANBRU72PI
+   
+   
+   To-do:
+   -Add catch/err handling
+   -smooth out input output process
